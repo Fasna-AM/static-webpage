@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Playwrite CU", cursive;
+}
+/* nav */
+#navimg{
+    width: 10%;
+    margin-left: 10%;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+#navhead1, #navhead2{
+    font-size: 25px;
+}
+#navhead2{
+    margin-left: 10px;
+    color: #8de8d0;
+}
+
+/* home */
+#home{
+    /* border: solid; */
+    display: flex;
+    height: 500px;
+}
+#homeimg{
+    width: 700px;
+    height: 100%;
+
+}
+#homecontent{
+    background-color: #d2f4eb;
+}
+.content{
+    margin: 8% 20% 8% 10%;
+    text-align: justify;
+}
+#name{
+    width: 91%;
+}
+#home-head2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#home-link{
+    text-decoration: none;
+    color: white;
+    background-color:#0e7d60;
+    display: inline-block;
+    padding: 10px;
+}
+/* restaurant */
+#restaurant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8%;
+    /* border: solid; */
+}
+.head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+}
+#head2{
+    color:#8de8d0;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-right:8%;
+}
+#content
+{
+    line-height: 1.5;
+}
+#images{
+    justify-content: space-between;
+}
+.img1{
+    width: 40%;
+    height: 100%;
+    margin: 0px 20px ;
+}
+/* about */
+#about{
+    margin: 8%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: solid; */
+}
+.img2{
+    width: 90%;
+}
+/* menu */
+#menu{
+    margin: 8%;
+    /* border: solid */
+}
+#menuhead1{
+    text-align: center  ;
+}
+#menucontent{
+    margin-top: 2%;
+    width: 50%;
+    text-align: center;
+    margin-left:25% ;
+}
+#menu-list{
+    /* margin: 2%; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    gap: 2%;
+}
+#menuimg{
+    width: 100%;
+    height: 80%;
+}
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+}
+/* items */
+#item-list1{
+    background-image: url(./images/bread.jpg);
+    background-size:cover ;
+    text-align: center;
+
+}
+#item-list2{
+    background-image: url(./images/ietms3.jpg);
+    background-size:cover ;
+    text-align: center;
+
+}
+#item-list3{
+    background-image: url(./images/summer-desserts.jpg);
+    background-size:cover ;
+    text-align: center;
+
+}
+.item-head1{
+    margin-top: 20%;
+}
+
+#item1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 100%;
+    gap: 20px;
+}
+
+
+.item-list{
+    /* border: solid; */
+    width: 100%;
+    height: 400px;
+ } 
+
+
+
+
+#item2{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 6%;
+}
+
+/* testimonials */
+#testimonials{
+    background-color: #ecfaf6;
+}
+.testimonials{
+    margin: 8%;
+}
+#testimonial-content{
+    display: flex;
+    margin: 5%;
+}
+.testimonials-list{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#testimonial-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#testimonial-quotes{
+    margin: 5%;
+    text-align: justify;
+}
+/* contact */
+.contact{
+    margin: 8%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#contact-info{
+    line-height: 2.5;
+}
+.contact-link{
+    text-decoration: none;
+}
+#contact-no{
+    color: #8de8d0;
+}
+.icon{
+    margin: 10px 30px 0px 0px;
+    color: #8de8d0;
+    font-size: 30px;
+}
+#contact-email{
+    color: black;
+}
+.uparoow{
+    background-color: #8de8d0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-left: 210%;
+
+
+}

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Web page</title>
+    <!-- style sheet link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <!-- aos animation -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="container">
+        <!-- navbar -->
+        <nav id="navbar">
+            <img id="navimg" src="./images/logo.jpg" alt="Logo">
+            <span id="navhead1">Launch</span>
+            <span id="navhead2">Home</span>
+        </nav>
+        <!--home  -->
+        <section id="home">
+            <!-- img-div -->
+            <div data-aos="fade-right"  data-aos-delay="300">
+                <img  id="homeimg" src="./images/homeimg.jpg" alt="Home">
+            </div>
+            <!-- content-div -->
+            <div  id="homecontent">
+                <div data-aos="fade-left"  data-aos-delay="300" class="content" >
+
+                    <h1 id="home-head1">Experience</h1>
+                    <h1 id="home-head2">The Taste Of Italy!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit laudantium aut deleniti
+                        dignissimos! Dolorem quis sunt accusamus, magnam quidem quisquam odio cupiditate dolor ut
+                        similique
+                        necessitatibus possimus iusto praesentium blanditiis?
+                    </p>
+                    <br>
+                    <h2 id="home-head3">Reservations</h2>
+                    <br>
+                    <input id="name" type="text" placeholder="Your name">
+                    <br>
+                    <input id="phno" type="text" placeholder=" Phone-number">
+                    <input id="date" type="date" placeholder=" Date">
+                    <input id="time" type="number" placeholder="Time">
+                    <br>
+                    <br>
+                    <a id="home-link" href="">Reserve your slot</a>
+
+                </div>
+            </div>
+        </section>
+        <!-- resturant -->
+        <section id="restaurant">
+            <!-- content -->
+            <div id="content">
+                <h1 id="head1" class="head">Discover</h1>
+                <h1 id="head2" class="head">Our Restaurant</h1>
+                <p id="content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci veritatis nobis, architecto
+                    corrupti et quos eos, doloremque esse modi numquam odit praesentium deleniti magnam provident.
+                    Repellendus nobis eveniet ea magni?
+                </p>
+            </div>
+            <!-- images -->
+            <div  id="images">
+                <img class="img1" src="./images/resimg1.jpg" alt="no image">
+                <img class="img1" src="./images/resimg2.png" alt="no image">
+
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about">
+            <!-- image -->
+            <div data-aos="zoom-in" data-aos-delay="300" id="images">
+                <img class="img2" src="./images/aboutimg.jpg" alt="no image">
+            </div>
+            <!-- content -->
+            <div id="content">
+                <h1 id="head1" class="head">About</h1>
+                <h1 id="head2" class="head">Our Restaurant</h1>
+                <p id="content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci veritatis nobis, architecto
+                    corrupti et quos eos, doloremque esse modi numquam odit praesentium deleniti magnam provident.
+                    Repellendus nobis eveniet ea magni?
+                </p>
+            </div>
+
+        </section>
+        <!-- menu -->
+        <section id="menu">
+            <!-- head -->
+            <div id="content">
+                <h1 id="menuhead1" class="head">Popular <span id="head2">Menu</span></h1>
+                <p id="menucontent">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci veritatis nobis, architecto
+
+                </p>
+            </div>
+            <!-- menu -->
+            <div id="menu-list">
+                <div id="menu1" class="menu-items">
+                    <img id="menuimg" src="./images/broccoli-salad-.jpg" alt="">
+                    <div class="menu-content">
+                        <p>Broccoli-salad</p>
+                        <p>$20</p>
+                    </div>
+
+                </div>
+                <div id="menu2" class="menu-items">
+                    <img id="menuimg" src="./images/mutton-soup-.jpg" alt="">
+                    <div class="menu-content">
+                        <p>Mutton-soup</p>
+                        <p>$35</p>
+                    </div>
+
+                </div>
+                <div id="menu3" class="menu-items">
+                    <img id="menuimg" src="./images/spaghetti-pasta.avif" alt="">
+                    <div class="menu-content">
+                        <p>Spaghetti-pasta</p>
+                        <p>$15</p>
+                    </div>
+
+                </div>
+                <div id="menu4" class="menu-items">
+                    <img id="menuimg" src="./images/roasted chicken.jpg" alt="">
+                    <div class="menu-content">
+                        <p>Roasted chicken</p>
+                        <p>$25</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- items -->
+        <section id="items">
+
+            <div class="items">
+                <div id="item1" class="item-div">
+                    <div id="item-list1" class="item-list">
+                        <!-- <img id="itemimg" class="item-list1" src="./images/bread.jpg" alt="no image"> -->
+                        <h1 id="home-head1" class="item-head1 item-list1">Late Morning</h1>
+                        <h1 id="home-head2" class="item-head2 item-list1">Brunch</h1>
+                        <p class="item-list1 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+                            laudantium aut deleniti
+                            dignissimos!
+                        </p>
+                    </div>
+                    <div id="item-list2" class="item-list">
+                        <!-- <img id="itemimg" class="item-list2" src="./images/ietms3.jpg" alt="no image"> -->
+                        <h1 id="home-head1" class="item-head1 item-list2"> Elegant approach to</h1>
+                        <h1 id="home-head2" class="item-head2 item-list2">Cooking</h1>
+                        <p class="item-list2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+                            laudantium aut deleniti
+                            dignissimos!
+                        </p>
+                    </div>
+                    <div id="item-list3" class="item-list">
+                        <!-- <img id="itemimg" class="item-list3" src="./images/summer-desserts.jpg" alt="no image"> -->
+                        <h1 id="home-head1" class="item-head1 item-list3">  Tasting to</h1>
+                        <h1 id="home-head2" class="item-head2 item-list3">Desserts</h1>
+                        <p class="item-list3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+                            laudantium aut deleniti
+                            dignissimos!
+                        </p>
+                    </div>
+
+                </div>
+
+                <div id="item2" class="item-div">
+                    <h1>Subscribe</h1>
+                    <br>
+                    <p>
+                        expedita esse tempore rem qui similique, vitae dolore tenetur sed, explicabo nemo officiis odit
+                        modi, soluta dicta.
+
+                    </p>
+                    <input id="email" type="email" placeholder="Your e-mail id">
+                    <a id="home-link" href="">Subscribe</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- testimonials -->
+        <section id="testimonials">
+            <div class="testimonials">
+                <div id="testimonial-head" class="testimonial-item">
+                    <h1 id="menuhead1" class="head">Our <span id="head2">Testimonials</span></h1>
+                </div>
+                <div id="testimonial-content" class="testimonial-item">
+                    <div id="testimonials-list1" class="testimonials-list">
+                        <img id="testimonial-img" src="./images/test1.jpg" alt="no image">
+                        <div id="testimonial-quotes">
+                            <p><span id="head2">"</span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+                                officiis saepe accusamus, aliquid ea tenetur incidunt necessitatibus repellat dicta
+                                velit nesciunt aspernatur minus assumenda vel quis porro, suscipit commodi eligendi.</p>
+                            <h2 id="head2">-Antonio Bachour</h2>
+                        </div>
+
+                    </div>
+
+                    <div id="testimonials-list2" class="testimonials-list">
+                        <img id="testimonial-img" src="./images/test2.jpg" alt="no image">
+                        <div id="testimonial-quotes">
+                            <p><span id="head2">"</span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+                                officiis saepe accusamus, aliquid ea tenetur incidunt necessitatibus repellat dicta
+                                velit nesciunt aspernatur minus assumenda vel quis porro, suscipit commodi eligendi.</p>
+                            <h2 id="head2">-Debbie J Elder</h2>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- contacts -->
+        <footer id="contacts">
+
+            <div class="contact">
+                <div id="contact-info" class="contact-details">
+                    <h1 class="head">Contacts</h1>
+                    <p id="contact-name">Launch Home</p>
+                    <a class="contact-link" href="">
+                        <p id="contact-no"> 80-52-78-78</p>
+                    </a>
+                    <p id="contact-time">Opening Time 10am - 10pm</p>
+                    <a class="contact-link" href=""> <i class="fa-brands fa-facebook icon"></i></a>
+                    <a class="contact-link" href=""> <i class="fa-brands fa-twitter icon"></i> </a>
+                    <a class="contact-link" href=""> <i class="fa-brands fa-instagram icon"></i></a>
+                    <a class="contact-link" href=""><p id="contact-email">launch_home@gmail.com</p></a>
+                </div>
+                <div id="contact-map" class="contact-details">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.3228041012057!2d76.31102909678958!3d9.990171500000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d980f3f3c8d%3A0xa6550213e48087e3!2sCiao%20Cochin!5e0!3m2!1sen!2sin!4v1720869454869!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="uparoow">
+                   <a href="#container"><i class="fa-solid fa-angle-up " ></i></a> 
+
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
